@@ -18,4 +18,8 @@ frequencies.reverse!
 
 keywords = frequencies.select {|a, b| a.length >= 4}
 
+puts "------- + " + keywords.length.to_s
+
+keywords = keywords.select.first(5)
+
 print keywords
